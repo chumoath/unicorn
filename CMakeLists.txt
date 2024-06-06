@@ -412,6 +412,7 @@ else()
         -D_LARGEFILE_SOURCE
         -Wall
         -fPIC
+	-g
     )
     if(APPLE)
         # This warning is disabled by default for gcc and doesn't cause any bug.
